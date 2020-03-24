@@ -1,0 +1,396 @@
+@font-face {
+    font-family: IRANSans;
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/eot/IRANSansWeb.eot');
+    src: url('../fonts/eot/IRANSansWeb.eot?#iefix') format('embedded-opentype'), /* IE6-8 */
+    url('../fonts/woff2/IRANSansWeb.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/
+    url('../fonts/woff/IRANSansWeb.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('../fonts/ttf/IRANSansWeb.ttf') format('truetype');
+}
+
+html {
+    font-family: IRANSans;
+    direction: rtl;
+}
+
+.collapse {
+    justify-content: center;
+}
+
+#header {
+    background: url(../images/gruop7/header\ vector.png) center;
+    background-blend-mode: luminosity;
+    background-color: #2a70cc;
+}
+
+#header #logo {
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+    margin-bottom: -35px;
+}
+
+#header #logo #vorod {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    margin-right: 550px;
+    margin-top: 200px;
+    height: 44px;
+    width: 110px;
+}
+
+#header #logotext {
+    font-family: tahoma;
+    color: #ffffff;
+    letter-spacing: 30px;
+    font-size: 1.5em;
+}
+
+#header #logotext #logotext1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: -150px;
+    margin-bottom: -80px;
+}
+
+#header #text1 {
+    font-family: IRANSans;
+    color: #fff;
+    font-size: 50px;
+}
+
+
+/* #header #nav ul 
+{
+    display: flex;
+    justify-content: center;
+} */
+
+.collapse ul li {
+    padding: 10px
+}
+
+.collapse ul li a {
+    font-size: 18px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #ffffff;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #f5b300 !important;
+}
+
+#contnet #menu1 {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    height: 200px;
+    padding-top: 50px;
+}
+
+/* #contnet #menu1 a img {
+    background-color: red;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+} */
+
+/* #contnet #menu1 a img:hover {
+    width: 220px;
+    height: 100px;
+    box-shadow: 2px 2px 5px red inset;
+    background: red;
+    color: #2a70cc;
+} */
+
+/* @keyframes example {
+        0%   {background-color:red; left:0px; top:0px;}
+        25%  {background-color:yellow; left:200px; top:0px;}
+        50%  {background-color:blue; left:200px; top:200px;}
+        75%  {background-color:green; left:0px; top:200px;}
+        100% {background-color:red; left:0px; top:0px;}
+} */
+
+#contnet #menu1 div {
+    border: 2px solid #8b8b8b;
+    border-radius: 7px;
+    width: 100px;
+    height: 111px;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.fade {
+    opacity: 0.5;
+}
+
+.fade:hover {
+    opacity: 1;
+}
+
+.grow:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.circle:hover {
+    border-radius: 50%;
+}
+
+.threed:hover {
+    box-shadow: 0px 12px 10px 5px #8b8b8b;
+    /* -webkit-transform: translateX(-3px);
+        transform: translateX(-3px); */
+}
+
+.threed1:hover {
+    text-shadow: 2px 2px 8px #f5b300;
+}
+
+#project {
+    height: 600px;
+    background: #7ecfe3;
+    /* background: rgba(126, 207, 227, 0.22); */
+}
+
+#project #ptext {
+    text-align: center;
+}
+
+#project #ptext h4 {
+    font-family: IRANSans;
+    justify-content: center;
+    display: flex;
+    padding: 22px;
+    font-weight: 600;
+}
+
+#project #body ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+
+#project #body ul li {
+    list-style: none;
+    display: flex;
+}
+
+#project #body ul li #imgkala {
+    justify-content: center;
+    display: flex;
+    font-size: 50px;
+    color: #e07700;
+    flex-direction: column;
+}
+
+#project #body ul li #imgkala button {
+    display: contents;
+    color: #e07700;
+}
+
+#main {
+    height: 400px;
+    background-color: white !important;
+}
+
+#main img {
+    margin-top: 3%;
+    width: 100%;
+    height: 315px;
+    overflow: hidden;
+}
+
+#main #maintext {
+    width: 100px;
+    height: 30px;
+    border: 1px solid #3ed249;
+    border-radius: 2px;
+    background: #3ed249;
+    left: 130px;
+    bottom: 100px;
+    position: absolute;
+    text-align: center;
+}
+
+#main #maintext a {
+    font-family: IRANSans;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+#main #maintext a:hover {
+    color: #ffffff;
+}
+
+#mainbottom1 {
+    justify-content: center;
+    text-align: center;
+}
+
+#mainbottom1 p {
+    color: #e07700;
+    font-family: IRANSans;
+    font-size: 22px;
+}
+
+#main2 {
+    display: flex;
+    flex-direction: row;
+    height: 550px;
+}
+
+#main2 #amar {
+    height: 500px;
+    background: rgba(126, 207, 227, 0.22);
+    border: 1px solid rgba(126, 207, 227, 0.22);
+    margin-right: 30px;
+    border-radius: 3px;
+}
+
+#main2 #roydad {
+    height: 500px;
+    background: rgba(126, 207, 227, 0.22);
+    border: 1px solid rgba(126, 207, 227, 0.22);
+    margin-right: 40px;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: row;
+}
+
+#main2 #roydad #roydad1 {
+    margin: 20px;
+}
+
+#main2 #roydad #roydad1 img {
+    margin-top: 45px;
+}
+
+#main2 #roydad #roydad1 h4 {
+    text-align: center;
+    font-family: IRANSans;
+    color: #040085;
+    margin-top: 50px;
+}
+
+#main2 #roydad #roydad1 p {
+    margin-top: 30px;
+    font-family: IRANSans;
+    font-size: 16px;
+}
+
+#subfooter {
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+#subfooter #logo {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: end;
+    padding: 18px;
+    margin-top: 50px;
+}
+
+#subfooter #logo p {
+    text-align: right;
+    color: #fff;
+    font-family: IRANSans;
+    font-size: 14px;
+    padding-top: 25px;
+}
+
+#subfooter #dostan {
+    margin-top: 50px;
+    color: #fff;
+}
+
+#subfooter #dostan p {
+    font-size: 19px;
+    font-family: IRANSans;
+    font-weight: 700;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#subfooter #dostan .rline {
+    border-right: 1px solid #fff;
+}
+
+#subfooter #dostan ul {
+    text-align: initial;
+    margin-top: 30px;
+    list-style: circle;
+    font-size: 15px;
+    font-family: IRANSans;
+}
+
+#subfooter #dostan .icon {
+    display: flex;
+    flex-direction: row;
+    padding-right: 25px;
+    padding-top: 15px;
+    color: #7ecfe3;
+}
+
+#subfooter #dostan a {
+    text-decoration: none;
+    font-family: IRANSans;
+}
+
+#subfooter #dostan a:hover {
+    color: #e07700;
+    font-size: 30px;
+}
+
+#footer {
+    background: #040085;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#footer p {
+    color: #fff;
+    font-family: IRANSans;
+    padding-top: 10px;
+}
+
+/* ///////////// */
+
+#main2 #amar #car {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#main2 #amar #car p {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 15px;
+    font-family: IRANSans;
+}
+
+#main2 #amar #car #svg1 #svg {
+    width: 100px;
+}
+
+#main2 #amar #car #svg1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+/* /////////// */
